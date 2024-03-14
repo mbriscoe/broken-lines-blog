@@ -1,0 +1,28 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+<div class="container mt-5">
+{% for biog in biogs %}
+    <div class="row">
+        <div class="col-12 col-md-4 text-center">
+            {% if "placeholder" in biog.profile_image.url %}
+            <img src="{% static 'images/nobody.jpg' %}" class="profile-image" alt="{{ biog.title }}">
+            {% else %}
+            <img src="{{ biog.profile_image.url }}" class="profile-image" alt="{{ biog.title }}">
+            {% endif %}
+        </div>
+        <div class="col-12 col-md-8">
+            <h2>{{ biog.title }}</h2>
+            {{ biog.content | safe }}
+        </div>
+    </div>
+    <div class="row">
+        <div class="col text-right">    
+          <p class="text-end"><em>Updated on: {{ biog.updated_on }}</em></p>
+        </div>
+    </div>
+    
+{% endfor %}
+</div>
+{% endblock content %}
