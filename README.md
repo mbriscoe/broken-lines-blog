@@ -1,4 +1,4 @@
-# Ethereal Expressions
+# Broken Lines Blog
 
 This project is to develop a website for the artist Adamma Anwen Lloyd, with the goal of showcasing her work and attracting potential clients or buyers. We aim to include a gallery page with high-quality images of her work, an about the artist page and a contact form for enquiries or purchases. 
 
