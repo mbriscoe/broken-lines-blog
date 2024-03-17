@@ -39,18 +39,74 @@ A responsive site layout enables easy navigation on all devices.
 <a id="user-stories"></a>
 ## User Stories
 
-- As a user, I can use the menu, so that I can navigate the site.
-  - The navigation bar feature contains clearly visible clickable links to the different site pages.
-- As a user, I would to have easy access to the artist's social media links, so that I can quickly see the relevant pages and explore their art/online presence.
-  - Social media links for the artist are visible in the footer on all pages across the website.
-- As a user, I can click contact, so that I can contact the artist.
-  - The contact page, accessible from any page via its navigation bar link, contains a contact form for users to get in touch. Also provided on this page are the artist's contact details: telephone number and location.
-- As a user, I can view the home, so that I can see what the site is about.
-  - The home page is the landing page of the site, and introduces the user to the artist using both text and images. This is accessible from other pages via its navigation bar link.
-- As a user, I can click on about menu, so that I can understand more about the artist.
-  - The about page gives a more complete introduction to the artist so that the user can be more familiar with them and the context of their work.
-- As a user, I can click gallery, so that I can see examples of the work.
-  - The gallery page displays eight collections, each of four images. The user can click on each image to view the artwork full-size.
+**As a site user, I can view a list of posts and click on the post I want to view.**
+
+- A list of posts is displayed on the front page
+- Multiple posts are listed and paginated
+
+**As a Site User, I can click on a post so that I can read the full text.**
+
+- When a blog post title is clicked, a detailed view of the individual post is displayed.
+
+**As a Site Admin I can create draft posts so that I can finish writing the content later, prior to publishing.**
+
+- As a logged in Admin, they can save a draft blog post
+- As a logged in Admin they can finish the content at a later time
+
+**As a Site User I can view comments on an individual post**
+
+- Given one or more user comments the user can view them.
+- Given one or more user comments the admin can view them.
+
+**As a Site User I can leave comments on a post**
+
+- Comments need to be approved by an admin user
+- Approved comments are listed on the individual post page
+
+**As a Site User I can modify or delete my comments on a post**
+
+- A logged in user can modify their own comments
+- A logged in user can delete their own comments
+
+**As a site admin I can approve/disapprove comments in order to filter out objectionable comments**
+
+- Admin can approve a comment
+- Admin can un-approve a comment
+
+**As a Site User, I can click on the About link and read about the site.**
+
+- When the About link is clicked, the about page is displayed.
+
+**As a Site Admin, I can create or update the about page.**
+
+- The About app is visible in the admin panel
+- The About app is accessible to Admin users
+
+**As a site user I can fill in a contact /collaboration form so that I can submit a message to the site owner.**
+
+- Contact/collaboration form is submitted and feedback given
+
+**As a Site Admin I can mark contact messages as "read".**
+
+- Admin can mark messages as read
+
+**As a user I can click on the biography menu and read the band biography**
+
+- User clicks biography and band biog page displays
+- Admin can add/edit band biographies
+
+**As a Site User I can register an account so that I can comment posts.**
+
+- Given an email a user can register an account and log in.
+- When the user is logged in they can comment.
+
+**As a site user/admin I can login so that I can access all of available content.**
+
+- User can login and se the full range of available menus.
+
+**As a site user/admin I can logout so that I can leave the site safely.**
+
+- User/admin can logout successfully
 
 As can be seen from the project board, the completed sprint was composed of 17 separate items. Having used the MoSCoW approach to prioritisation, 10 were classified as "Must-Have" making up less than 60% of the tasks as recommended. The rest of the first sprint was made up of "Should-Have", "Could-Have" and bug fixes.
 The project backlog contains several "Could-Have" user stories and two "Won't Have" items.
