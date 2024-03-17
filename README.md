@@ -4,7 +4,9 @@ This project is to develop a small blog website for the band Broken Lines, as a 
 
 From a users perspective, they should be able to view posts made by the band, and, if a registered user, comment on those posts to enage in conversation with other users or the band themselves.
 
-In terms of design, there should be a cohesive colour scheme and set of styles across the whole site to reiterate the artist's brand. Site layout should enhance rather than impede the user experience to give a welcoming, intuitive feel. Finally, the site layout should be responsive to enable easy navigation on all devices.
+In terms of design, a minimalistic approach has been taken in order to let the vibrance of the blg post images dictate the overal feel of the site. should be a cohesive colour scheme and set of styles across the whole site to reiterate the artist's brand. Site layout should enhance rather than impede the user experience to give a welcoming, intuitive feel.
+
+A responsive site layout enables easy navigation on all devices.
 
 <img src="https://github.com/mbriscoe/Ethereal-Expressions/assets/86828720/142e1d42-da4d-4aba-a683-342923bc8e1e" style="width:70%;">
 
@@ -24,13 +26,13 @@ In terms of design, there should be a cohesive colour scheme and set of styles a
 ### Home Page Wireframe Design
 <img src="https://github.com/mbriscoe/Ethereal-Expressions/assets/86828720/7a577631-48c3-41e1-b3ff-28ff473ac2f0" style="width:70%;">
 
-### About Page Wireframe Design
+### Post Detail Page Wireframe Design
 <img src="https://github.com/mbriscoe/Ethereal-Expressions/assets/86828720/9f05638c-6ff9-413c-ac5d-20b5dd70235c" style="width:70%;">
 
-### Gallery Page Wireframe Design
+### About Page Wireframe Design
 <img src="https://github.com/mbriscoe/Ethereal-Expressions/assets/86828720/126c0d7b-b504-4ca0-8e4d-d149d52c4b13" style="width:70%;">
 
-### Contact Page Wireframe Design
+### Biog Page Wireframe Design
 <img src="https://github.com/mbriscoe/Ethereal-Expressions/assets/86828720/43c32720-3191-4bc7-b94b-56b3765a1351" style="width:70%;">
 
 <a id="user-stories"></a>
