@@ -24,16 +24,17 @@ A responsive site layout enables easy navigation on all devices.
 ## UX Design
 
 ### Home Page Wireframe Design
-<img src="https://github.com/mbriscoe/Ethereal-Expressions/assets/86828720/7a577631-48c3-41e1-b3ff-28ff473ac2f0" style="width:70%;">
+<img width="1043" alt="Home" src="https://github.com/mbriscoe/broken-lines-blog/assets/86828720/fc1c7075-0936-462b-a62c-97e1c3dc9bf1" style="width:70%;">
+
 
 ### Post Detail Page Wireframe Design
-<img src="https://github.com/mbriscoe/Ethereal-Expressions/assets/86828720/9f05638c-6ff9-413c-ac5d-20b5dd70235c" style="width:70%;">
+<img width="1034" alt="Post Detail" src="https://github.com/mbriscoe/broken-lines-blog/assets/86828720/0a25af88-2728-4a80-842d-4e39d2dc3233" style="width:70%;">
 
 ### About Page Wireframe Design
-<img src="https://github.com/mbriscoe/Ethereal-Expressions/assets/86828720/126c0d7b-b504-4ca0-8e4d-d149d52c4b13" style="width:70%;">
+<img width="1041" alt="About" src="https://github.com/mbriscoe/broken-lines-blog/assets/86828720/b642421a-90f5-4ed2-a2f3-ffa69172eac8" style="width:70%;">
 
 ### Biog Page Wireframe Design
-<img src="https://github.com/mbriscoe/Ethereal-Expressions/assets/86828720/43c32720-3191-4bc7-b94b-56b3765a1351" style="width:70%;">
+<img width="1035" alt="Biography" src="https://github.com/mbriscoe/broken-lines-blog/assets/86828720/b3783363-ed00-49d5-ac2a-bd4886549f3d" style="width:70%;">
 
 <a id="user-stories"></a>
 ## User Stories
