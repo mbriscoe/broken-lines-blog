@@ -122,13 +122,11 @@ There were no remaining backlog items.
 <p>And is fully responsive</p>
 <img width="784" alt="navbar2" src="https://github.com/mbriscoe/broken-lines-blog/assets/86828720/c68630ba-a572-4079-a07e-1b7e56c6a82a">
 
-
+<br><br>
 - **The Footer**
 
-The page footer is arranged in 2 rows. The first row contains social media links for the site and the second row contains links to the site team's GitHub pages.
-The footer layout was created using CSS flex.  
-
-<img src="https://github.com/mbriscoe/Ethereal-Expressions/assets/86828720/3e936859-663d-4d57-9b4f-38e4c8627a01" style="width:70%;">
+The page footer is a simple arrangement of 3 social media icons.
+<img width="738" alt="footer" src="https://github.com/mbriscoe/broken-lines-blog/assets/86828720/bc205537-b534-4795-9d16-f9ffb589e12e">
 
 
 ### Home Page
