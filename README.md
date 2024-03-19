@@ -18,17 +18,6 @@ A responsive site layout enables easy navigation on all devices.
 <p><img width="400" alt="iphone" src="https://github.com/mbriscoe/broken-lines-blog/assets/86828720/a10153a4-f3cc-46a2-bf59-adda58896b9e"></p>
 
 
-# Contents
-
-1. [UX Design](#ux-design)
-2. [User Stories](#user-stories)
-3. [Features](#features)
-4. [Testing](#testing)
-5. [Deployment](#deployment)
-6. [Credits/Technologies Used](#credits)
-7. [Future Features](#future-features)
-
-<a id="ux-design"></a>
 ## UX Design
 
 ### Home Page Wireframe Design
@@ -44,7 +33,7 @@ A responsive site layout enables easy navigation on all devices.
 ### Biog Page Wireframe Design
 <img width="1035" alt="Biography" src="https://github.com/mbriscoe/broken-lines-blog/assets/86828720/b3783363-ed00-49d5-ac2a-bd4886549f3d" style="width:70%;">
 
-<a id="user-stories"></a>
+
 ## User Stories
 
 **As a site user, I can view a list of posts and click on the post I want to view.**
@@ -122,7 +111,7 @@ There were no remaining backlog items.
 <img width="1467" alt="kanban" src="https://github.com/mbriscoe/broken-lines-blog/assets/86828720/ba4b5b09-7b18-4449-b7ba-399ea99bbf00">
 
 
-<a id="features"></a>
+
 ## Features
 
 - **Navigation Bar**
@@ -172,7 +161,7 @@ This page was structured using bootstrap.
 
 <img src="https://github.com/mbriscoe/Ethereal-Expressions/assets/86828720/35aa091f-62d6-4557-a52a-05a543820609" style="width:70%;">
 
-<a id="testing"></a>
+
 ## Testing
 
 ### Manual Testing
@@ -214,75 +203,21 @@ All bug fixes were dealt with efficiently and cleanly.
 - BUG: Footer overlapping content
 - BUG: Shading display on gallery page
 
-<a id="deployment"></a>
+
 ## Deployment
 
 - The site was deployed to GitHub pages from the main branch of the repository early in the developemnt stage for continuous deployment and checking.
 
 - The live link can be found [_here_](https://mbriscoe.github.io/Ethereal-Expressions/)
 
-<a id="credits"></a>
+
 ## Credits
 
 ### Content
 
-- The quotation that appears on our home page belongs to Arshile Gorky. We have found it at https://www.azquotes.com/quote/709942?ref=abstract-art
-- The icons in the header and footer were taken from [Font Awesome](https://fontawesome.com/)
-- The quotes on the home page were create by our team member Martina!
+- all content is copyright Broken Lines Publishing Limited 2024.
+- The posts were created by various members of the band.
 
 ### Media
 
-- For this project, our team has made use of different platforms in order to obtain visual content. The first platform that has been chosen for the content of this website is IDDLE, a platform that belongs to ChatGPT. This platform allows the user to generate images with AI without the need of a copyright license, which was suitable for our project. 
-
-- However, it is worth mentioning that before generating our images, key aspects such as: the colour palette selection, the painting technique and the topics by which the different art collections would inspired,  all of these fundamental points, were the result of a dynamic creative process. Besides, our team was also in charge of the design of our protagonist character, its identity and collections. 
-
-- Apart from using IDDLE for most of the visual elements in the website, as well, our team decided to utilise specific suitable images for our carousel on our home page. Firstly,  we visited the website  Unsplash .com and selected images that could be expanded nicely. With our selected images prepared, our team manipulated their sizes with the help of Adobe Fireworks, an image manipulation program.
-
-<a id="future-features"></a>
-## Future Features
-
-There are various features and user stories that we were not able to implement due to time constraints, but would be added in future iterations of the website.
-
-### User Story - Make purchase
-
-As a user, I can add to cart, so that I can purchase artwork
-
-### Associated Feature
-
-Add an add to cart button to each piece of art that is for sale along with adding the relevant pricing next to each piece. 
-
-### User Story - Theme Button
-
-As a user, I want to be able to change the overall theme of the site, so that I can get an idea of what different pieces look like on different backdrops etc
- 
-### Associated Feature
-
-Add a website theme button which alters the colour scheme of the site so that users can visualise what different pieces look like against different backdrops
-
-### User Story - Video Demonstration 
-
-As a user, I would like to see some short videos of the artist at work and video interviews with the artist, so that I can get a real look at how they work and what they are like.
-
-### Associated Feature
-
-Add a section in the about me page with videos of the artist during the creative process and video interviews giving an overview of the artist’s inspirations, background and personality.
-
-### User Story - Carousel Link
-
-As a user, I can click on a carousel image, so that I can view a specific gallery category
-
-### Associated Feature
-
-Add links to the carousel images that take the user to the associated gallery page. 
-
-### User Story - Contact Form Submission Modal
-
-As a user, I can see a pop-out confirmation of my submission on the contact form, so that I can be sure that the artist will receive my message
-
-### Associated Feature
-
-Create a modal on the contact form so that users get visual feedback that their message has been received by the artist.
-
-A Team ShouldaWouldaCoulda Production
-
-<img src="https://github.com/mbriscoe/Ethereal-Expressions/assets/86828720/e9c4aed7-5fed-46ff-99bd-06011316472c" style="width:100%;">
+- For this project, all media was supplied by Broken Lines.
