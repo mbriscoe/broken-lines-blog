@@ -8,7 +8,17 @@ In terms of design, a minimalistic approach has been taken in order to let the v
 
 A responsive site layout enables easy navigation on all devices.
 
-<img src="https://github.com/mbriscoe/Ethereal-Expressions/assets/86828720/142e1d42-da4d-4aba-a683-342923bc8e1e" style="width:70%;">
+<img width="1787" alt="desktop" src="https://github.com/mbriscoe/broken-lines-blog/assets/86828720/8e46f40e-c449-4b8c-9d83-96bc8c37c05e" style="width:70%;">
+
+
+<img width="1787" alt="tablet" src="https://github.com/mbriscoe/broken-lines-blog/assets/86828720/4e582bf4-a647-40c3-9400-e3cfed679387" style="width:70%;">
+
+
+<img width="1787" alt="iphone" src="https://github.com/mbriscoe/broken-lines-blog/assets/86828720/a10153a4-f3cc-46a2-bf59-adda58896b9e" style="width:70%;">
+
+
+![iphone]()
+
 
 # Contents
 
