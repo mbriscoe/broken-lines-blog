@@ -116,9 +116,12 @@ There were no remaining backlog items.
 
 - **Navigation Bar**
 
-Navigation is provided via a bootstrap navbar. CSS code has been added to underline menu items on hover and tint the navbar for each page. Font Awesome icons have been added to each menu item to add visual clues.
+<p>Navigation is provided via a bootstrap navbar.</p>
+<img width="516" alt="navbar1" src="https://github.com/mbriscoe/broken-lines-blog/assets/86828720/f6512fcd-f7e8-4aa3-8ddc-bfeb76c998a9" style="width:70%;">
 
-<img src="https://github.com/mbriscoe/Ethereal-Expressions/assets/86828720/6278e0e9-371f-4190-8527-9988f7a4d5c4" style="width:70%;">
+<p>And is fully responsive</p>
+<img width="784" alt="navbar2" src="https://github.com/mbriscoe/broken-lines-blog/assets/86828720/c68630ba-a572-4079-a07e-1b7e56c6a82a">
+
 
 - **The Footer**
 
