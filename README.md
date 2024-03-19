@@ -129,44 +129,14 @@ The page footer is a simple arrangement of 3 social media icons.
 <img width="738" alt="footer" src="https://github.com/mbriscoe/broken-lines-blog/assets/86828720/bc205537-b534-4795-9d16-f9ffb589e12e">
 
 
-### Home Page
-
-The Home page is formed by a carousel built on Bootstrap as the main element, a gradient banner, and two Bootstrap grids, the first one with two images and two pieces of text and the second one with  four images on the same row. The first element, the carousel is built up to catch the users' attention when they first visit the site and inform them about the content to expect through the site. Following the carousel, a banner works as a transitional element between the carousel and the content. 
-
-The gradient style of the banner uses the same colours as the images chosen for the first grid and its borders. Finally, the last point  is the use of representative images of the painter and her creative process taking place, in order to provide relevant visual information about the quality of the artist’s work.
-
-<img src="https://github.com/mbriscoe/Ethereal-Expressions/assets/86828720/aa86ebb5-e68b-4e42-8536-4e605799fa10" style="width:70%;">
-
-
-### About Page
-
-The About page is compounded by two pictures, followed by two pieces of text. Bootstrap grid has been used to fit them on the page and make them responsive. For smaller devices, the elements collapse one on top of each other, having the images at the top and the bottom, and the text, in the center.  For devices with higher resolution such as tablets, laptops and desk computers, the elements expand evenly in two rows, and each element takes  50 per cent of the space available.
-
-<img src="https://github.com/mbriscoe/Ethereal-Expressions/assets/86828720/0e44e6d5-6efe-49ae-8c16-ed46b25fc010" style="width:70%;">
-
-
-### Gallery Page
-
-The gallery page contains eight four-piece collections from the artist, displayed in a grid using Bootstrap CSS. The user can click on any of the pieces to see it full-size, and an on-hover shadow effect highlights image as the mouse passes over them.
-
-<img src="https://github.com/mbriscoe/Ethereal-Expressions/assets/86828720/5dea4234-8c38-4fd1-8e0c-2e863001c600" style="width:70%;">
-
-
-### Contact Page
-
-The contact page is comprised of two parts. First, there is a contact form for users to get in touch with the artist. This give options to submit either a general enquiry, a purchase enquiry or to contact about a commission. 
-
-The second part of the page deals with contact details for the artist giving a portrait photo, contact details and an embedded map showing her location.
-
-This page was structured using bootstrap.
-
-<img src="https://github.com/mbriscoe/Ethereal-Expressions/assets/86828720/35aa091f-62d6-4557-a52a-05a543820609" style="width:70%;">
-
-
 ## Testing
 
 ### Manual Testing
-<img src="https://github.com/mbriscoe/Ethereal-Expressions/assets/86828720/c0e89b6c-78a8-42a2-8b48-bc6b39ac513e" style="width:100%;">
+The site was tested on the following browsers vfor compatibility:
+- Chrome
+- Firefox
+- Edge
+- Opera
 
 ### Lighthouse
 The site was tested using Lighthouse with the following results:
@@ -175,18 +145,7 @@ The site was tested using Lighthouse with the following results:
 
 ### Responsive Testing
 
-Alongside the built in Bootstrap responsive CSS, media queries were used throughout our own CSS to provide a consistent user experience. Chrome dev tools were used frequently to test the site at standard screen sizes and the site was manually viewed on laptops, tablets and phones.
-
-<img src="https://github.com/mbriscoe/Ethereal-Expressions/assets/86828720/216eaf29-7853-4fe9-b3e1-4ed9ff705c84" style="width:70%;">
-
-
-### Browser Compatibility
-The site was tested on the following browsers:
-- Chrome
-- Firefox
-- Edge
-- Opera
-<img src="https://github.com/mbriscoe/Ethereal-Expressions/assets/86828720/2104c398-4375-40d0-af15-25cba812c33e" style="width:70%;">
+Alongside the built in Bootstrap responsive CSS, Chrome dev tools were used frequently to test the site at standard screen sizes and the site was manually viewed on laptops, tablets and phones.
 
 
 ### Validator Testing
@@ -198,18 +157,13 @@ The site was tested on the following browsers:
 - CSS
   - No errors were found with our own CSS code when passing through the official Jigsaw validator. However, there were many errors found in the Bootstrap CSS code, which is a normal result.
 
-## Bugs
-All bug fixes were dealt with efficiently and cleanly.
-- BUG: contact page width issue
-- BUG: Footer overlapping content
-- BUG: Shading display on gallery page
-
 
 ## Deployment
 
-- The site was deployed to GitHub pages from the main branch of the repository early in the developemnt stage for continuous deployment and checking.
+- The site was deployed to Heroku from the main branch of the repository early in the developemnt stage for continuous deployment and checking.
+- The PostgreSQL database was served from ElephantSQL
 
-- The live link can be found [_here_](https://mbriscoe.github.io/Ethereal-Expressions/)
+- The live link can be found [_here_](https://broken-lines-blog-d7e7160138f2.herokuapp.com/)
 
 
 ## Credits
