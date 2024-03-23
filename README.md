@@ -170,7 +170,7 @@ Alongside the built in Bootstrap responsive CSS, Chrome dev tools were used freq
 
 
 ## Credits
-- This project is based on the "I Blog Therefore I Am" project from the LMS.
+- This project is based on the "I Think Therefore I Blog" project from the LMS.
   
 ### Content
 
