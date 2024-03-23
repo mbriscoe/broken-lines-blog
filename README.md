@@ -114,6 +114,12 @@ There were no remaining backlog items.
 
 ## Features
 
+- **Entity Relationship Diagram**
+<p>The following data structure was created for the project.</p>
+
+<img width="1200" alt="erd" src="https://github.com/mbriscoe/broken-lines-blog/assets/86828720/a36f5174-0876-4d27-b6da-9bca6d88bf37">
+
+
 - **Navigation Bar**
 
 <p>Navigation is provided via a bootstrap navbar.</p>
