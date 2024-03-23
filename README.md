@@ -140,7 +140,7 @@ The site was tested on the following browsers vfor compatibility:
 
 ### Lighthouse
 The site was tested using Lighthouse with the following results:
-<img src="https://github.com/mbriscoe/Ethereal-Expressions/assets/86828720/ed031055-ecac-4a09-93e0-d9710011e550" style="width:70%;">
+<img width="995" alt="lighthouse" src="https://github.com/mbriscoe/broken-lines-blog/assets/86828720/c4684a12-5bff-48de-8608-b22aa490d702" style="width:70%;">
 
 
 ### Responsive Testing
