@@ -152,7 +152,9 @@ Alongside the built in Bootstrap responsive CSS, Chrome dev tools were used freq
 
 - HTML
 
-  - No errors were returned when passing through the official [_W3C validator_](https://validator.w3.org/nu/?doc=https://mbriscoe.github.io/Ethereal-Expressions)
+  - No errors were returned when passing through the official W3C validator
+<img width="1082" alt="w3 validator" src="https://github.com/mbriscoe/broken-lines-blog/assets/86828720/e6127df3-cc68-4216-b769-bc216c3b68ae"  style="width:70%;">
+
 
 - CSS
   - No errors were found with our own CSS code when passing through the official Jigsaw validator. However, there were many errors found in the Bootstrap CSS code, which is a normal result.
