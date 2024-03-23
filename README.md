@@ -170,7 +170,8 @@ Alongside the built in Bootstrap responsive CSS, Chrome dev tools were used freq
 
 
 ## Credits
-
+- This project is based on the "I Blog Therefore I Am" project from the LMS.
+  
 ### Content
 
 - all content is copyright Broken Lines Publishing Limited 2024.
