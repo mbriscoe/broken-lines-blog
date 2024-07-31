@@ -35,11 +35,11 @@ STATICFILES_DIRS = [
     os.path.join(BASE_DIR, "static"),
 ]
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
-ALLOWED_HOSTS = ["127.0.0.1", ".gitpod.io", ".herokuapp.com"]
+ALLOWED_HOSTS = ["127.0.0.1", ".codeinstitute-ide.net", ".herokuapp.com"]
 
-CSRF_TRUSTED_ORIGINS = ["https://*.gitpod.io", "https://*.herokuapp.com"]
+CSRF_TRUSTED_ORIGINS = ["https://*.codeinstitute-ide.net", "https://*.herokuapp.com"]
 
 # Application definition
 
