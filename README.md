@@ -20,6 +20,23 @@ A responsive site layout enables easy navigation on all devices.
 
 ## UX Design
 
+### Typography
+
+[**Font Awesome**](https://fontawesome.com) icons were used for the site icons. For example, the social media icons in the footer of the pages.
+
+[**Lato**](https://fonts.google.com/specimen/Lato) was used for the primary headers and titles.
+
+[**Roboto**](https://fonts.google.com/specimen/Roboto) was used for all other secondary text.
+
+
+
+### Colour Palette ###
+![screenshot](docs/images/swatch.png)
+
+A simple colour palette was chosen to compliment the vibrant images of the band, with a plain white page background, blue icons and a dark gray footer and individual blog page  header background. A simple red was chosen for the link hover to blog pages.
+
+
+
 ### Home Page Wireframe Design
 <img width="1043" alt="Home" src="https://github.com/mbriscoe/broken-lines-blog/assets/86828720/fc1c7075-0936-462b-a62c-97e1c3dc9bf1" style="width:70%;">
 
@@ -114,10 +131,6 @@ There were no remaining backlog items.
 
 ## Features
 
-- **Entity Relationship Diagram**
-<p>The following data structure was created for the project.</p>
-
-<img width="1200" alt="erd" src="https://github.com/mbriscoe/broken-lines-blog/assets/86828720/a36f5174-0876-4d27-b6da-9bca6d88bf37">
 
 
 - **Navigation Bar**
@@ -134,15 +147,55 @@ There were no remaining backlog items.
 The page footer is a simple arrangement of 3 social media icons.
 <img width="738" alt="footer" src="https://github.com/mbriscoe/broken-lines-blog/assets/86828720/bc205537-b534-4795-9d16-f9ffb589e12e">
 
+<br><br>
+
+- **Sign Up**
+
+The site has a facility to sign up as a user in order to make, edit or delete your own comments on blog posts.
+
+![screenshot](docs/images/signup.png)
+
+<br><br>
+
+- **Sign In**
+
+The site has a facility to sign in, once you have created a user account, in order to make, edit or delete your own comments on blog posts.
+
+![screenshot](docs/images/signin.png)
+
+<br><br>
+
+- **Admin**
+
+The site has a facility for designated administrators to sign in, in order to administrate the site via the standard Django admin interface.
+
+![screenshot](docs/images/admin.png)
+
+<br><br>
+
+- **Sign in**
+
+The site has a facility to sign in, once you have created a user account, in order to make, edit or delete your own comments on blog posts.
+
+![screenshot](docs/images/signin.png)
+
+<br><br>
+
+- **Entity Relationship Diagram**
+<p>The following data structure was created for the project.</p>
+
+<img width="1200" alt="erd" src="https://github.com/mbriscoe/broken-lines-blog/assets/86828720/a36f5174-0876-4d27-b6da-9bca6d88bf37">
 
 ## Testing
 
 ### Manual Testing
-The site was tested on the following browsers vfor compatibility:
+The site was tested on the following browsers for compatibility:
 - Chrome
 - Firefox
 - Edge
-- Opera
+- Opera#
+
+
 
 ### Lighthouse
 The site was tested using Lighthouse with the following results:
