@@ -218,13 +218,74 @@ The site has a facility for designated administrators to sign in, in order to ad
 
 ### Manual Testing
 The site was tested on the following browsers for compatibility:
-- Chrome
-- Firefox
-- Edge
-- Opera#
 
+### Chrome ###
+|   Test	|  Expected Result 	|  Actual Result	|
+|---	|---	|---	|
+|   Click Home menu	|  success 	|  success 	|
+|   Click About menu	|  success 	|  success 	|
+|   Click Biogs menu	|  success 	|  success 	|
+|   Click Admin menu	|  success 	|  success 	|
+|   Click Login menu	|  success 	|  success 	|
+|   Click Logout	|  success 	|  success 	|
+|   Click individual blog post	|  success 	|  success 	|
+|   Create, edit, delete a personal comment	|  success 	|  success 	|
+|   Register new account	|  success 	|  success 	|
+|   Create collaboration request	|  success 	|  success 	|
+|   Access admin interface	|  success 	|  success 	|
+|   Responsivity	|  success 	|  success 	|
+|   Open new page from social media links	|  success 	|  success 	|
 
+### Firefox ###
+|   Test	|  Expected Result 	|  Actual Result	|
+|---	|---	|---	|
+|   Click Home menu	|  success 	|  success 	|
+|   Click About menu	|  success 	|  success 	|
+|   Click Biogs menu	|  success 	|  success 	|
+|   Click Admin menu	|  success 	|  success 	|
+|   Click Login menu	|  success 	|  success 	|
+|   Click Logout	|  success 	|  success 	|
+|   Click individual blog post	|  success 	|  success 	|
+|   Create, edit, delete a personal comment	|  success 	|  success 	|
+|   Register new account	|  success 	|  success 	|
+|   Create collaboration request	|  success 	|  success 	|
+|   Access admin interface	|  success 	|  success 	|
+|   Responsivity	|  success 	|  success 	|
+|   Open new page from social media links	|  success 	|  success 	|
 
+### Edge ###
+|   Test	|  Expected Result 	|  Actual Result	|
+|---	|---	|---	|
+|   Click Home menu	|  success 	|  success 	|
+|   Click About menu	|  success 	|  success 	|
+|   Click Biogs menu	|  success 	|  success 	|
+|   Click Admin menu	|  success 	|  success 	|
+|   Click Login menu	|  success 	|  success 	|
+|   Click Logout	|  success 	|  success 	|
+|   Click individual blog post	|  success 	|  success 	|
+|   Create, edit, delete a personal comment	|  success 	|  success 	|
+|   Register new account	|  success 	|  success 	|
+|   Create collaboration request	|  success 	|  success 	|
+|   Access admin interface	|  success 	|  success 	|
+|   Responsivity	|  success 	|  success 	|
+|   Open new page from social media links	|  success 	|  success 	|
+
+### Safari ###
+|   Test	|  Expected Result 	|  Actual Result	|
+|---	|---	|---	|
+|   Click Home menu	|  success 	|  success 	|
+|   Click About menu	|  success 	|  success 	|
+|   Click Biogs menu	|  success 	|  success 	|
+|   Click Admin menu	|  success 	|  success 	|
+|   Click Login menu	|  success 	|  success 	|
+|   Click Logout	|  success 	|  success 	|
+|   Click individual blog post	|  success 	|  success 	|
+|   Create, edit, delete a personal comment	|  success 	|  success 	|
+|   Register new account	|  success 	|  success 	|
+|   Create collaboration request	|  success 	|  success 	|
+|   Access admin interface	|  success 	|  success 	|
+|   Responsivity	|  success 	|  success 	|
+|   Open new page from social media links	|  success 	|  success 	|
 ### Lighthouse
 The site was tested using Lighthouse with the following results:
 <img width="995" alt="lighthouse" src="https://github.com/mbriscoe/broken-lines-blog/assets/86828720/c4684a12-5bff-48de-8608-b22aa490d702" style="width:70%;">
