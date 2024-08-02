@@ -250,10 +250,36 @@ Alongside the built in Bootstrap responsive CSS, Chrome dev tools were used freq
 
 ## Deployment
 
-- The site was deployed to Heroku from the main branch of the repository early in the developemnt stage for continuous deployment and checking.
-- The PostgreSQL database was served from ElephantSQL
+The site was deployed to Heroku from the main branch of the repository early in the development stage for continuous deployment and checking.
 
-- The live link can be found [_here_](https://broken-lines-blog-d7e7160138f2.herokuapp.com/)
+The Heroku app is setup with 3 environment variables, repalcing the environment variables stored in env.py (which doesn't get pushed to github).
+
+In order to create an Heroku app:
+
+1. Click on New in the Heroku dashboard, and Create new app from the menu dropdown.
+
+2. Give your new app a unique name, and choose a region, preferably one that is geographically closest to you.
+
+3. Click "Create app"
+
+4. In your app settings, click on "Reveal Config Vars" and add the environment variables for your app. These are:
+- DATABASE_URL - your database connection string
+- SECRET_Key - the secret key for your app
+- CLOUDINARY_URL - the cloudinary url for your image store
+
+The PostgreSQL database is served from ElephantSQL
+
+Once the app setup is complete, click on the Deploy tab and:
+
+1. connect to the required GitHub account
+2. select the repository to deploy from
+3. click the Deploy Branch button to start the  deployment.
+4. Once deployment finishes the app can be launched.
+
+![screenshot](docs/images/heroku.png)
+
+
+The live link can be found [_here_](https://broken-lines-blog-d7e7160138f2.herokuapp.com/)
 
 
 ## Credits
