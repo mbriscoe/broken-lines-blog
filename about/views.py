@@ -33,4 +33,4 @@ def about_me(request):
 
     collaborate_form = CollaborateForm()
 
-    return render(request, "about/about.html", {"about": about})
+    return render(request, "about/about.html", {"about": about, "collaborate_form": collaborate_form})
