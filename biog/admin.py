@@ -8,4 +8,5 @@ class BiogAdmin(SummernoteModelAdmin):
     """
     Adds rich-text editing of content in admin
     """
-    summernote_fields = ('content',)
+
+    summernote_fields = ("content",)

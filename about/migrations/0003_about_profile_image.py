@@ -7,13 +7,15 @@ from django.db import migrations
 class Migration(migrations.Migration):
 
     dependencies = [
-        ('about', '0002_collaboraterequest'),
+        ("about", "0002_collaboraterequest"),
     ]
 
     operations = [
         migrations.AddField(
-            model_name='about',
-            name='profile_image',
-            field=cloudinary.models.CloudinaryField(default='placeholder', max_length=255, verbose_name='image'),
+            model_name="about",
+            name="profile_image",
+            field=cloudinary.models.CloudinaryField(
+                default="placeholder", max_length=255, verbose_name="image"
+            ),
         ),
     ]

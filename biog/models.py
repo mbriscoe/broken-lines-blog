@@ -6,7 +6,7 @@ from cloudinary.models import CloudinaryField
 
 class Biog(models.Model):
     title = models.CharField(max_length=200)
-    profile_image = CloudinaryField('image', default='placeholder')
+    profile_image = CloudinaryField("image", default="placeholder")
     updated_on = models.DateTimeField(auto_now=True)
     content = models.TextField()
 
