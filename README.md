@@ -131,6 +131,32 @@ There were no remaining backlog items.
 
 ## Features
 
+<br><br>
+
+- **Home Page**
+
+The home page of the site offers the user a grid of blog posts, by the band, that the user can click on to read each individual blog post.
+
+![screenshot](docs/images/homepage.png)
+
+
+<br><br>
+
+- **About Page**
+
+The about page gives details about the band history and offers the option to make a collaboration request, via a form at the bottom of the page. The collaboration request is stored in the database for later review.
+
+![screenshot](docs/images/aboutpage.png)
+
+
+<br><br>
+
+- **Biogs Page**
+
+The biogs page gives a biographical history of each band member, detailing past experiences in music and previous bands.
+
+![screenshot](docs/images/biogs.png)
+
 
 
 - **Navigation Bar**
@@ -165,6 +191,15 @@ The site has a facility to sign in, once you have created a user account, in ord
 
 <br><br>
 
+- **Sign Out**
+
+The site has a facility for a user to sign out of their account.
+
+
+![screenshot](docs/images/signout.png)
+
+<br><br>
+
 - **Admin**
 
 The site has a facility for designated administrators to sign in, in order to administrate the site via the standard Django admin interface.
@@ -173,13 +208,6 @@ The site has a facility for designated administrators to sign in, in order to ad
 
 <br><br>
 
-- **Sign in**
-
-The site has a facility to sign in, once you have created a user account, in order to make, edit or delete your own comments on blog posts.
-
-![screenshot](docs/images/signin.png)
-
-<br><br>
 
 - **Entity Relationship Diagram**
 <p>The following data structure was created for the project.</p>
