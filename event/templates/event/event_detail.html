@@ -1,0 +1,36 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+
+<div class="container mt-5">
+    <div class="row">
+        <div class="col-12 col-md-8">
+            <h2>{{ event.title }}</h2>
+            <h4>Description</h4>
+            <p>{{ event.description | safe }}</p>
+            <p><strong>Date:</strong> {{ event.date }}</p>
+            <p><strong>Time:</strong> {{ event.time }}</p>
+            <p><strong>Venue:</strong> {{ event.venue }}</p>
+            <p><strong>Promoter:</strong> {{ event.promoter }}</p>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+{% endblock %}

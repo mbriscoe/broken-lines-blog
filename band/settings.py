@@ -40,7 +40,8 @@ DEBUG = True
 
 ALLOWED_HOSTS = ["127.0.0.1", ".codeinstitute-ide.net", ".herokuapp.com"]
 
-CSRF_TRUSTED_ORIGINS = ["https://*.codeinstitute-ide.net", "https://*.herokuapp.com"]
+CSRF_TRUSTED_ORIGINS = [
+    "https://*.codeinstitute-ide.net", "https://*.herokuapp.com"]
 
 # Application definition
 
@@ -63,6 +64,7 @@ INSTALLED_APPS = [
     "blog",
     "about",
     "biog",
+    "event",
 ]
 
 SITE_ID = 1
