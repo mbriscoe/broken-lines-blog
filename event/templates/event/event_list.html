@@ -9,7 +9,7 @@
             <ul>
                 {% for event in events %}
                 <li class="alert alert-success">
-                    <a href="{% url 'event_detail' event.id %}">{{ event.title }}</a> - {{ event.date }}
+                    <a href="{% url 'event_detail' event.id %}"> <i class="fa-solid fa-music"></i> {{ event.title }}</a> - {{ event.date }}
                 </li>
                 {% empty %}
                     <li>No events found.</li>
