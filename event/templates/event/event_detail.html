@@ -1,6 +1,8 @@
 {% extends 'base.html' %}
 {% load static %}
 
+{% url 'event' as event_url %}
+
 {% block content %}
 
 <div class="container mt-5">
@@ -9,10 +11,14 @@
             <h2>{{ event.title }}</h2>
             <h4>Description</h4>
             <p>{{ event.description | safe }}</p>
-            <p><strong>Date:</strong> {{ event.date }}</p>
-            <p><strong>Time:</strong> {{ event.time }}</p>
-            <p><strong>Venue:</strong> {{ event.venue }}</p>
-            <p><strong>Promoter:</strong> {{ event.promoter }}</p>
+            <p class="alert alert-success"><strong>Date:</strong> {{ event.date }}</p>
+            <p class="alert alert-success"><strong>Time:</strong> {{ event.time }}</p>
+            <p class="alert alert-success"><strong>Venue:</strong> {{ event.venue }}</p>
+            <p class="alert alert-success"><strong>Promoter:</strong> {{ event.promoter }}</p>
+        </div>
+
+        <div>
+            <a class="btn btn-success" href="{% url 'event' %}" >Back to Event List</a>
         </div>
     </div>
 

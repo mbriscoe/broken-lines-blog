@@ -8,7 +8,7 @@
             <h2>Events</h2>
             <ul>
                 {% for event in events %}
-                <li>
+                <li class="alert alert-success">
                     <a href="{% url 'event_detail' event.id %}">{{ event.title }}</a> - {{ event.date }}
                 </li>
                 {% empty %}
