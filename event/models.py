@@ -11,5 +11,8 @@ class Event(models.Model):
     venue = models.CharField(max_length=200)
     promoter = models.CharField(max_length=200)
 
+    class Meta:
+        ordering = ["date"]
+
     def __str__(self):
         return self.title
