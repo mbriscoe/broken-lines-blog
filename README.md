@@ -122,7 +122,15 @@ A simple colour palette was chosen to compliment the vibrant images of the band,
 
 - User/admin can logout successfully
 
-The completed sprint was composed of 15 separate items. Having used the MoSCoW approach to prioritisation, 9 were classified as "Must-Have" making up less than 60% of the tasks as recommended. The rest of the first sprint was made up of "Should-Have" and "Could-Have" items.
+**As a site user I can view a list of past and present band events**
+
+- User can view a list of events successfully
+
+**As a site admin I can add events to a band event list.**
+
+- Admin can add event items successfully
+
+The completed sprint was composed of 17 separate items. Having used the MoSCoW approach to prioritisation, 9 were classified as "Must-Have" making up less than 60% of the tasks as recommended. The rest of the first sprint was made up of "Should-Have" and "Could-Have" items.
 There were no remaining backlog items.
 
 <img width="1467" alt="kanban" src="https://github.com/mbriscoe/broken-lines-blog/assets/86828720/ba4b5b09-7b18-4449-b7ba-399ea99bbf00">
