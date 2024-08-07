@@ -7,18 +7,18 @@
 
 <div class="container mt-5">
     <div class="row">
-        <div class="col-12 col-md-8">
+        <div class="col-12">
             <h2>{{ event.title }}</h2>
             <h4>Description</h4>
             <p>{{ event.description | safe }}</p>
-            <p class="alert alert-success"><strong>Date:</strong> {{ event.date }}</p>
-            <p class="alert alert-success"><strong>Time:</strong> {{ event.time }}</p>
-            <p class="alert alert-success"><strong>Venue:</strong> {{ event.venue }}</p>
-            <p class="alert alert-success"><strong>Promoter:</strong> {{ event.promoter }}</p>
+            <p class="alert alert-success"><i class="fa-solid fa-guitar"></i> <strong>Date:</strong> {{ event.date }}</p>
+            <p class="alert alert-success"><i class="fa-solid fa-guitar"></i> <strong>Time:</strong> {{ event.time }}</p>
+            <p class="alert alert-success"><i class="fa-solid fa-guitar"></i> <strong>Venue:</strong> {{ event.venue }}</p>
+            <p class="alert alert-success"><i class="fa-solid fa-guitar"></i> <strong>Promoter:</strong> {{ event.promoter }}</p>
         </div>
 
         <div>
-            <a class="btn btn-success" href="{% url 'event' %}" >Back to Event List</a>
+            <a class="btn btn-success" href="{% url 'event' %}" ><i class="fa-solid fa-music"></i> Back to Event List <i class="fa-solid fa-music"></i></a>
         </div>
     </div>
 
