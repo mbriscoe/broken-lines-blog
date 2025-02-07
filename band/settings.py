@@ -16,6 +16,8 @@ from django.contrib.messages import constants as messages
 import dj_database_url
 import sys
 
+DEBUG = False
+
 if os.path.isfile("env.py"):
     import env
 
@@ -36,12 +38,12 @@ STATICFILES_DIRS = [
     os.path.join(BASE_DIR, "static"),
 ]
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
 
-ALLOWED_HOSTS = ["127.0.0.1", ".codeinstitute-ide.net", ".herokuapp.com"]
+
+ALLOWED_HOSTS = ["127.0.0.1", ".codeinstitute-ide.net", ".herokuapp.com", ".ui.dev"]
 
 CSRF_TRUSTED_ORIGINS = [
-    "https://*.codeinstitute-ide.net", "https://*.herokuapp.com"]
+    "https://*.codeinstitute-ide.net", "https://*.herokuapp.com", "https://*.ui.dev"]
 
 # Application definition
 
