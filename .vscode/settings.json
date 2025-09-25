@@ -21,7 +21,7 @@
       "**/CVS": true
    },
    "files.autoSave": "off",
-   "workbench.colorTheme": "Material Theme Palenight High Contrast",
+   "workbench.colorTheme": "Vira Palenight High Contrast",
    "terminal.integrated.gpuAcceleration": "canvas",
    "editor.defaultFormatter": "HookyQR.beautify",
    "[json]": {

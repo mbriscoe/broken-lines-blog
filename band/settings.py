@@ -16,7 +16,7 @@ from django.contrib.messages import constants as messages
 import dj_database_url
 import sys
 
-DEBUG = True
+DEBUG = False
 
 if os.path.isfile("env.py"):
     import env
@@ -32,15 +32,19 @@ SECRET_KEY = os.environ.get("SECRET_KEY")
 
 TEMPLATES_DIR = os.path.join(BASE_DIR, "templates")
 
-STATIC_ROOT = os.path.join(BASE_DIR, "staticfiles")
+# Static files (CSS, JavaScript, Images)
+# https://docs.djangoproject.com/en/4.2/howto/static-files/
 
+STATIC_URL = "static/"
+STATIC_ROOT = BASE_DIR / "staticfiles"
 STATICFILES_DIRS = [
     os.path.join(BASE_DIR, "static"),
 ]
 # SECURITY WARNING: don't run with debug turned on in production!
 
 
-ALLOWED_HOSTS = ["127.0.0.1", ".codeinstitute-ide.net", ".herokuapp.com", ".ui.dev"]
+ALLOWED_HOSTS = ["127.0.0.1", ".codeinstitute-ide.net",
+                 ".herokuapp.com", ".ui.dev"]
 
 CSRF_TRUSTED_ORIGINS = [
     "https://*.codeinstitute-ide.net", "https://*.herokuapp.com", "https://*.ui.dev"]
@@ -159,10 +163,6 @@ MESSAGE_TAGS = {
     messages.ERROR: "alert-danger",
 }
 
-# Static files (CSS, JavaScript, Images)
-# https://docs.djangoproject.com/en/4.2/howto/static-files/
-
-STATIC_URL = "static/"
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field
