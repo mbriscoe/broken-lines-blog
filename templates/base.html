@@ -44,34 +44,34 @@
             <div class="collapse navbar-collapse" id="navbarText">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link {% if request.path == home_url %}active" aria-current="page{% endif %}" href="{% url 'home' %}">Home</a>
+                        <a class="nav-link {% if request.path == home_url %}active" aria-current="page"{% endif %}" href="{% url 'home' %}">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link {% if request.path == about_url %}active" aria-current="page{%endif%}" href="{% url 'about' %}" >About</a>
+                        <a class="nav-link {% if request.path == about_url %}active" aria-current="page"{% endif %}" href="{% url 'about' %}" >About</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link {% if request.path == biog_url %}active" aria-current="page{%endif%}" href="{% url 'biog' %}" >Biogs</a>
+                        <a class="nav-link {% if request.path == biog_url %}active" aria-current="page"{% endif %}" href="{% url 'biog' %}" >Biogs</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link {% if request.path == event_url %}active" aria-current="page{%endif%}" href="{% url 'event' %}" >Events</a>
+                        <a class="nav-link {% if request.path == event_url %}active" aria-current="page"{% endif %}" href="{% url 'event' %}" >Events</a>
                     </li>
                     <!-- AUTHENTICATED LINKS -->
                     {% if user.is_authenticated %}
                     {% if user.is_superuser %}
                         <li class="nav-item">
-	                        <a class="nav-link" target="_blank" {% if request.path == login_url %}active" aria-current="page{% endif %}" href="{% url 'admin:index' %}">Admin</a>
+	                        <a class="nav-link" target="_blank" {% if request.path == login_url %}active" aria-current="page"{% endif %}" href="{% url 'admin:index' %}">Admin</a>
                         </li>
-                        {%endif %}    
+                        {% endif %}    
                     <li class="nav-item">
-	                        <a class="nav-link {% if request.path == logout_url %}active" aria-current="page{% endif %}" href="{% url 'account_logout' %}">Logout</a>
+	                        <a class="nav-link {% if request.path == logout_url %}active" aria-current="page"{% endif %}" href="{% url 'account_logout' %}">Logout</a>
                         </li>
                     {% else %}
                         <!-- UNAUTHENTICATED LINKS -->
                         <li class="nav-item">
-	                        <a class="nav-link {% if request.path == signup_url %}active" aria-current="page{% endif %}" href="{% url 'account_signup' %}">Register</a>
+	                        <a class="nav-link {% if request.path == signup_url %}active" aria-current="page"{% endif %}" href="{% url 'account_signup' %}">Register</a>
                         </li>
                         <li class="nav-item">
-	                        <a class="nav-link {% if request.path == login_url %}active" aria-current="page{% endif %}" href="{% url 'account_login' %}">Login</a>
+	                        <a class="nav-link {% if request.path == login_url %}active" aria-current="page"{% endif %}" href="{% url 'account_login' %}">Login</a>
                         </li>
                     {% endif %}
                 </ul>
